@@ -6,4 +6,5 @@ module.exports = ({ env }) => ({
       secret: env("JWT_SECRET"),
     },
   },
+  host: "0.0.0.0",
 });
